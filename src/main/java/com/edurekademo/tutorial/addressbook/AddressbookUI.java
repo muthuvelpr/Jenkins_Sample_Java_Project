@@ -59,6 +59,8 @@ public class AddressbookUI extends UI {
     protected void init(VaadinRequest request) {
         configureComponents();
         buildLayout();
+        //Introduce Error
+        introduceError();
     }
 
     private void configureComponents() {
